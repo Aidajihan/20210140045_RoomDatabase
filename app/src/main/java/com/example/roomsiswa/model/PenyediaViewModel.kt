@@ -10,7 +10,7 @@ object  PenyediaViewModel {
     val Factory = viewModelFactory {
 
         initializer {
-            EntryViewModel(aplikasiSiswa().container.repositoriSiswa)
+            HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
         }
 
         initializer {
